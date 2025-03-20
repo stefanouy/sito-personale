@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+}
+
+/* creo le classi per i font  */
+.boldonse {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hero {
+    background-color: cornflowerblue;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;   
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+}
+
+#menu {
+    /* all'inizio non si vede  */
+    display: none;
+}
+
+footer {
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoScuola {
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo {
+    height: 80%;
+}
+
+.info > a {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
