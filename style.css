@@ -111,6 +111,8 @@ footer > div {
 .cv {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* personalizzo il riquadro del curriculum  */
@@ -123,3 +125,26 @@ footer > div {
 .intestazione {
     text-align: center;
 }
+
+.fascia-download {
+    background-color: lightseagreen;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottone {
+    background-color: white;
+    color: lightseagreen;
+    font-family: "Boldonse";
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
