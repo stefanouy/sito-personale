@@ -115,7 +115,7 @@ footer > div {
 
 /* personalizzo il riquadro del curriculum  */
 .curriculum {
-    width: 80%;
+    width: 65%;     
     padding: 20px;
     border: 1px solid black;
 }
