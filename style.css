@@ -171,3 +171,6 @@ a {
 .bonus {
     height: 50vh;
 }
+html{
+    scroll-behavior: smooth;
+}
