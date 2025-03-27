@@ -1,5 +1,11 @@
+html {
+    /* proprietà che scrolla il sito  */
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+   
 }
 
 header {
@@ -48,6 +54,14 @@ li {
 #menu {
     /* all'inizio non si vede  */
     display: none;
+}
+
+.menu {
+     cursor: pointer; 
+}
+
+.menu-lista > ul > li {
+    text-align: center;
 }
 
 footer {
@@ -148,3 +162,12 @@ a {
     text-decoration: none;
 }
 
+.bottone:hover {
+    background-color: lightseagreen;
+    color:white;
+    border: 1px solid white;
+}
+
+.bonus {
+    height: 50vh;
+}
